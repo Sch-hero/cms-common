@@ -29,12 +29,15 @@ public class StringUtils {
 			
 		}
 		
+		
 		public static void main(String[] args) {
 			
 			
-			String str = "张三\r\n李四";
+			/*String str = "张三\r\n李四";
 			String dst = toHtml(str);
-			System.out.println("dst is " + dst);
+			System.out.println("dst is " + dst);*/
+			String str = "9.887";
+			System.err.println(isNumber(str));
 			
 		}
 		
@@ -121,7 +124,7 @@ public class StringUtils {
 		 */
 		public static boolean isNumber(String str) {
 			
-			String reg = "[0-9]+";
+			String reg = "[0-9]+[.]?[0-9]+";
 			return str.matches(reg);
 		}
 		

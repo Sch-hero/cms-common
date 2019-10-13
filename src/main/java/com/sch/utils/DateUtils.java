@@ -22,7 +22,7 @@ public class DateUtils {
 	public static void main(String[] args) {
 		Date birth = new Date(100,0,6);
 		int age = claAge(birth);
-		System.err.println("age is"+age);//gfgfgffg
+		System.err.println("age is"+age);
 		
 		
 		System.out.println("今年的月初是：" + getMonthStart(new Date()));
