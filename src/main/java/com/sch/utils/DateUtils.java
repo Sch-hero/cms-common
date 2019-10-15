@@ -19,7 +19,7 @@ public class DateUtils {
 	 * @param birthday
 	 * @return
 	 */
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 		Date birth = new Date(100,0,6);
 		int age = claAge(birth);
 		System.err.println("age is"+age);
@@ -31,7 +31,7 @@ public class DateUtils {
 	}
 
 	
-	private static int claAge(Date birthday) {
+	public static int claAge(Date birthday) {
 		// TODO Auto-generated method stub
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(birthday);

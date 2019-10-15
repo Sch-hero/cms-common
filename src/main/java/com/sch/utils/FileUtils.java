@@ -22,7 +22,7 @@ public class FileUtils {
 	private static File file;
 	
 	public static void main(String[] args) throws IOException {
-		String readFileByLine = readFileByLine("C:\\Users\\HHH\\Desktop\\包\\pom.xml");
+		String readFileByLine = readFileByLine("D:\\a.txt");
 		System.out.println("filename is " + readFileByLine);
 		
 	}
