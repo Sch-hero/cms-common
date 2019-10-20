@@ -129,6 +129,13 @@ public class FileUtils {
 		StreamUtils.closeStream(fis);
 		return strList;
 		
-	} 
+	}
+	
+	public static void fileToBean(String string, Class<String> class1,
+			Class<String> class2, Class<String> class3, Class<String> class4,
+			Class<String> class5) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
