@@ -5,6 +5,7 @@ import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 /**
@@ -230,8 +231,4 @@ public class StringUtils {
 		}
 		return sb.toString();	
 	}
-	
-	
-	
-	
 }
