@@ -31,6 +31,11 @@ public class DateUtils {
 	}
 
 	
+	/**
+	 * 
+	 * @param birthday
+	 * @return
+	 */
 	public static int claAge(Date birthday) {
 		// TODO Auto-generated method stub
 		Calendar cal = Calendar.getInstance();
@@ -72,6 +77,7 @@ public class DateUtils {
 		return dateStr.equals(todayStr);
 	}
 	
+	
 	/**
 	 * 判断是否为今年
 	 * @param date
@@ -85,6 +91,8 @@ public class DateUtils {
 		
 		return dateStr.equals(todayStr);
 	}
+	
+	
 	
 	/**
 	 * 给定时间对象，初始化到该月初的1日0时0分0秒0毫秒
@@ -102,6 +110,7 @@ public class DateUtils {
 		cal.set(Calendar.DAY_OF_MONTH, 1);
 		return cal.getTime();
 	}
+	
 	
 	/**
 	 * 求月末
